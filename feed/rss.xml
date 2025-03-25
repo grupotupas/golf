@@ -4,41 +4,41 @@
 
             <item>
          <title>post 1</title>
-         <link>https://josefernando.neocities/golf/blog/post1</link>
+         <link>https://grupotupas.githup/golf/blog/post1</link>
          <description>Descripción breve de la noticia</description>
          <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
          </item>
 
          <item>
              <title>post 1</title>
-             <link>https://josefernando.neocities/golf/blog/post1</link>
+             <link>https://grupotupas.githup/golf/blog/post1</link>
              <description>Descripción breve de la noticia</description>
              <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
          </item>
 
          <item>
              <title>post 2</title>
-             <link>https://josefernando.neocities/golf/blog/post2</link>
+             <link>https://grupotupas.githup/golf/blog/post2</link>
              <description>Descripción breve de la noticia</description>
              <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
          </item>
 
          <item>
              <title>post 3</title>
-             <link>https://josefernando.neocities/golf/blog/post3</link>
+             <link>https://grupotupas.githup/golf/blog/post3</link>
              <description>Descripción breve de la noticia</description>
              <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
          </item>
 
          <item>
              <title>post 4</title>
-             <link>https://josefernando.neocities/golf/blog/post4</link>
+             <link>https://grupotupas.githup/golf/blog/post4</link>
              <description>Descripción breve de la noticia</description>
              <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
          </item>
 
         <title>Podcast sobre Golf</title>
-             <link>https://josefernando.neocities/golf/feed/podcast</link>
+             <link>https://grupotupas.githup/golf/feed/podcast</link>
              <description>Un podcast sobre el mundo del golf, sus torneos y técnicas para mejorar tu juego.</description>
              <language>es</language>
              <itunes:author>golf</itunes:author>
@@ -50,7 +50,7 @@
 
         <item>
             <title>Episodio 3: Los Grandes Torneos de Golf</title>
-            <link>https://josefernando.neocities/golf/feed/podcast</link>
+            <link>https://grupotupas.githup/golf/feed/podcast</link>
             <description>Un recorrido por los torneos más importantes como The Masters, el Open Championship y la Ryder Cup.</description>
             <pubDate>Wed, 20 Mar 2025 12:00:00 GMT</pubDate>
             <enclosure url="/podcast/audios/1802-LA-ARDILLA-DEL-GOLF.mp3" type="audio/mpeg" length="12345678"/>
@@ -59,7 +59,7 @@
 
         <item>
             <title>Episodio 2: El golf ayuda a los afectados</title>
-            <link>https://josefernando.neocities/golf/feed/podcast</link>
+            <link>https://grupotupas.githup/golf/feed/podcast</link>
             <description>Se estan haciendo torneos para recolectar y ayudar a los afectados por la Dana.</description>
             <pubDate>Wed, 13 Mar 2025 12:00:00 GMT</pubDate>
             <enclosure url="/podcast/audios/1119-LA-ARDILLA-DEL-GOLF.mp3" type="audio/mpeg" length="12345678"/>
@@ -68,7 +68,7 @@
 
         <item>
             <title>Episodio 1: Introducción al Golf</title>
-            <link>https://josefernando.neocities/golf/feed/podcast</link>
+            <link>https://grupotupas.githup/golf/feed/podcast</link>
             <description>Descubre los fundamentos del golf, su historia y las reglas básicas para empezar en este deporte.</description>
             <pubDate>Wed, 06 Mar 2025 12:00:00 GMT</pubDate>
             <enclosure url="/podcast/audios/0312-LA-ARDILLA-DEL-GOLF.mp3" type="audio/mpeg" length="12345678"/>
