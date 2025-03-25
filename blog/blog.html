@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #2E7D32;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .post-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .post-list .post-item {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .post-list .post-item h3 {
+            margin: 0;
+        }
+
+        footer {
+            background: #1B5E20;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        footer img {
+            width: 16px;
+            height: 16px;
+            vertical-align: middle;
+            margin-left: 5px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                font-size: 14px;
+            }
+
+            .post-list {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Galería de Posts</h1>
+        <nav>
+            <a href="http://127.0.0.1:3000/index.html">Inicio</a>
+            <a href="http://127.0.0.1:3000/podcast/podcast.html">podcast</a>
+            <a href="http://127.0.0.1:3000/blog/blog.html">Blog</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Posts Recientes</h2>
+        <div class="post-list">
+            <div class="post-item">
+                <a href="http://127.0.0.1:3000/blog/post1.html">
+                    <h3>Post 1</h3>
+                </a>
+            </div>
+            <div class="post-item">
+                <a href="http://127.0.0.1:3000/blog/post2.html">
+                    <h3>Post 2</h3>
+                </a>
+            </div>
+            <div class="post-item">
+                <a href="http://127.0.0.1:3000/blog/post3.html">
+                    <h3>Post 3</h3>
+                </a>
+            </div>
+            <div class="post-item">
+                <a href="http://127.0.0.1:3000/blog/post4.html">
+                    <h3>Post 4</h3>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p><a href="rss.xml">Suscribirse al Podcast</a> | <a href="blog-rss.xml">Suscribirse al Blog</a></p>
+        <p><a href="opml.xml">Descargar archivo OPML</a></p>
+    </footer>
+</body>
+</html>

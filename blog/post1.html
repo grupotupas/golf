@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #2E7D32;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .image-gallery .image-item {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+        }
+
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .image-gallery .image-item h3 {
+            padding: 10px;
+            text-align: center;
+            background: #f8f8f8;
+            margin: 0;
+        }
+
+        footer {
+            background: #1B5E20;
+            color: rgb(241, 241, 241);
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        footer img {
+            width: 160px;
+            height: 16px;
+            vertical-align: middle;
+            margin-left: 5px;
+        }
+
+        @media (max-width: 800px) {
+            body {
+                font-size: 140px;
+            }
+
+            .image-gallery {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GOLF FAN</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="galeria.html">Galería</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+    </header>
+    <h2>Top preguntas de hoy</h2>
+
+    <main>
+        <div class="image-gallery">
+            <div class="image-item">
+                <img src="../imagenes/OIP (3).jpg" alt="Imagen 4">
+                <h3>¿Ganará mañana el golfista canario Rafa Cabrera?</h3>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p><a href="rss.xml">Suscribirse al Podcast</a> | <a href="blog-rss.xml">Suscribirse al Blog</a></p>
+        <p><a href="opml.xml">Descargar archivo OPML</a></p>
+    </footer>
+</body>
+</html>

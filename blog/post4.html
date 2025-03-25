@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #2E7D32;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .image-gallery .image-item {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+        }
+
+        .image-gallery img {
+            width: 100%;
+            max-height: 200px; 
+            object-fit: cover; 
+            display: block;
+        }
+
+        .image-gallery .image-item h3 {
+            padding: 10px;
+            background: #f8f8f8;
+            margin: 0;
+        }
+
+        footer {
+            background: #1B5E20;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 800px) {
+            .image-gallery {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GOLF FAN</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="galeria.html">Galería</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+    </header>
+    <p aling="center"></p><H2>TOP PREGUNTAS DE HOY</H2></p>
+    
+    
+    <main>
+        <div class="image-gallery">
+            <div class="image-item">
+    
+         <img src="../imagenes/OIP (2).jpg" alt="Imagen 3">
+         <h3>¿Es él el mejor de la historia?</h3>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p><a href="rss.xml">Suscribirse al Podcast</a> | <a href="blog-rss.xml">Suscribirse al Blog</a></p>
+        <p><a href="opml.xml">Descargar archivo OPML</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast sobre Golf</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Encabezado */
+        header {
+            background: #2E7D32;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Contenido principal */
+        main {
+            padding: 20px;
+        }
+
+        .podcast-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .podcast-list li {
+            background: white;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        /* Pie de página */
+        footer {
+            background: #1B5E20;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        footer img {
+            width: 16px;
+            height: 16px;
+            vertical-align: middle;
+            margin-left: 5px;
+        }
+
+        /* Responsivo */
+        @media (max-width: 600px) {
+            body {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Podcast sobre Golf</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="podcast.html">Podcast</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Lista de Episodios</h2>
+        <ul class="podcast-list">
+            <li>
+                <h3>Episodio 3: Los Grandes Torneos de Golf</h3>
+                <p>Un recorrido por los torneos más importantes como The Masters, el Open Championship y la Ryder Cup.</p>
+                <audio controls>
+                    <source src="/podcast/audios/1802-LA-ARDILLA-DEL-GOLF.mp3"
+                        type="audio/mpeg">
+                   
+                </audio>
+            </li>
+            <li>
+                <h3>Episodio 2: El golf ayuda a los afectados</h3>
+                <p>Se estan haciendo torneos para recolectar y ayudar a los afectados por la Dana.</p>
+                <audio controls>
+                    <source src="/podcast/audios/1119-LA-ARDILLA-DEL-GOLF.mp3"
+                        type="audio/mpeg">
+                    
+                </audio>
+            </li>
+            <li>
+                <h3>Episodio 1: Introducción al Golf</h3>
+                <p>Descubre los fundamentos del golf, su historia y las reglas básicas para empezar en este deporte.</p>
+                <audio controls>
+                    <source src="/podcast/audios/0312-LA-ARDILLA-DEL-GOLF.mp3"
+                        type="audio/mpeg">
+                 
+                </audio>
+            </li>
+        </ul>
+    </main>
+
+    <footer>
+        <p><a href="rss.xml">Suscribirse al Podcast</a> | <a href="blog-rss.xml">Suscribirse al Blog</a></p>
+        <p><a href="opml.xml">Descargar archivo OPML</a></p>
+        <p>
+            <a href="https://validator.w3.org/feed/" target="_blank"> <img src="validrss.png" alt="Valid RSS"> </a>
+            <a href="https://opmlvalidator.com/" target="_blank"> <img src="validopml.png" alt="Valid OPML"> </a>
+        </p>
+    </footer>
+</body>
+</html>
