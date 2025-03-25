@@ -4,35 +4,28 @@
 
             <item>
          <title>post 1</title>
-         <link>https://grupotupas.githup/golf/blog/post1</link>
+         <link>https://grupotupas.githup/golf/blog/post1.html</link>
          <description>Descripción breve de la noticia</description>
          <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
          </item>
 
          <item>
-             <title>post 1</title>
-             <link>https://grupotupas.githup/golf/blog/post1</link>
-             <description>Descripción breve de la noticia</description>
-             <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
-         </item>
-
-         <item>
              <title>post 2</title>
-             <link>https://grupotupas.githup/golf/blog/post2</link>
+             <link>https://grupotupas.githup/golf/blog/post2.html</link>
              <description>Descripción breve de la noticia</description>
              <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
          </item>
 
          <item>
              <title>post 3</title>
-             <link>https://grupotupas.githup/golf/blog/post3</link>
+             <link>https://grupotupas.githup/golf/blog/post3.html</link>
              <description>Descripción breve de la noticia</description>
              <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
          </item>
 
          <item>
              <title>post 4</title>
-             <link>https://grupotupas.githup/golf/blog/post4</link>
+             <link>https://grupotupas.githup/golf/blog/post4.html</link>
              <description>Descripción breve de la noticia</description>
              <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
          </item>
