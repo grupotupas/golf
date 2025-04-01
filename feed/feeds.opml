@@ -1,38 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="https://joserfernando.neocities.org/golf/">
-    <title>Podcast sobre Golf</title>
-    <link href="https://joserfernando.neocities.org/golf/"/>
-    <updated>2025-03-20T12:00:00Z</updated>
-    <author>
-        <name>Tu Nombre o Nombre del Podcast</name>
-    </author>
-    <id>https://tuweb.com/podcast</id>
-
-    <entry>
-        <title>Episodio 3: Los Grandes Torneos de Golf</title>
-        <link href="https://tuweb.com/episodio3"/>
-        <id>https://tuweb.com/episodio3</id>
-        <updated>2025-03-20T12:00:00Z</updated>
-        <summary>Un recorrido por los torneos más importantes como The Masters, el Open Championship y la Ryder Cup.</summary>
-        <link rel="enclosure" type="audio/mpeg" href="https://tryparrotai.com/video?id=w_vvpixe5u" length="12345678"/>
-    </entry>
-
-    <entry>
-        <title>Episodio 2: Mejora tu Swing</title>
-        <link href="https://tuweb.com/episodio2"/>
-        <id>https://tuweb.com/episodio2</id>
-        <updated>2025-03-13T12:00:00Z</updated>
-        <summary>Aprende técnicas clave para perfeccionar tu swing y lograr mayor precisión en el campo.</summary>
-        <link rel="enclosure" type="audio/mpeg" href="https://www.voicy.network/audiofile.mp3" length="12345678"/>
-    </entry>
-
-    <entry>
-        <title>Episodio 1: Introducción al Golf</title>
-        <link href="https://tuweb.com/episodio1"/>
-        <id>https://tuweb.com/episodio1</id>
-        <updated>2025-03-06T12:00:00Z</updated>
-        <summary>Descubre los fundamentos del golf, su historia y las reglas básicas para empezar en este deporte.</summary>
-        <link rel="enclosure" type="audio/mpeg" href="https://tuweb.com/episodio1.mp3" length="12345678"/>
-    </entry>
-
-</feed>
+<?xml version="1.0" encoding="UTF-8"?> <opml version="1.0">
+ <head>
+ <title>Suscripciones RSS - Golden State Warriors</title> 
+ </head> 
+ <body> <outline text="Galeria de posts" title="Galeria de posts"> 
+ <outline text="Galeria de posts" type="rss" xmlUrl="http://127.0.0.1:3000/blog/blog.html" 
+ htmlUrl="https://grupotupas.github.io/golf/blog/blog/"/> 
+<outline text="Podcast - Warriors" type="rss" xmlUrl="http://127.0.0.1:3000/podcast/index.html"
+ htmlUrl="https://grupotupas.github.io/golf/podcast/podcast/"/> </outline> </body> </opml>
