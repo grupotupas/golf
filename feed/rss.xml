@@ -35,5 +35,32 @@
             <description>Descripción breve de la noticia</description>
             <pubDate>Wed, 26 Mar 2024 08:45:00 GMT</pubDate>
         </item>
+  <item>
+            <title>Episodio 3: Los Grandes Torneos de Golf</title>
+            <link>https://grupotupas.github.io/golf/podcast/episodio3.html</link>
+            <description>Un recorrido por los torneos más importantes como The Masters, el Open Championship y la Ryder Cup.</description>
+            <pubDate>Fri, 29 Mar 2024 12:00:00 GMT</pubDate>
+            <enclosure url="https://grupotupas.github.io/golf/podcast/audios/episodio3.mp3" length="12345678" type="audio/mpeg"/>
+            <itunes:duration>15:30</itunes:duration>
+        </item>
+
+        <item>
+            <title>Episodio 2: El golf ayuda a los afectados</title>
+            <link>https://grupotupas.github.io/golf/podcast/episodio2.html</link>
+            <description>Se están haciendo torneos para recolectar y ayudar a los afectados por la Dana.</description>
+            <pubDate>Thu, 28 Mar 2024 10:30:00 GMT</pubDate>
+            <enclosure url="https://grupotupas.github.io/golf/podcast/audios/episodio2.mp3" length="9876543" type="audio/mpeg"/>
+            <itunes:duration>12:45</itunes:duration>
+        </item>
+
+        <item>
+            <title>Episodio 1: Introducción al Golf</title>
+            <link>https://grupotupas.github.io/golf/podcast/episodio1.html</link>
+            <description>Descubre los fundamentos del golf, su historia y las reglas básicas para empezar en este deporte.</description>
+            <pubDate>Wed, 27 Mar 2024 09:00:00 GMT</pubDate>
+            <enclosure url="https://grupotupas.github.io/golf/podcast/audios/episodio1.mp3" length="6543210" type="audio/mpeg"/>
+            <itunes:duration>10:15</itunes:duration>
+        </item>
+
     </channel>
 </rss>
