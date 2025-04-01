@@ -1,34 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
     <channel>
+        <title>Blog de Golf</title>
+        <link>https://grupotupas.github.io/golf/</link>
+        <description>Últimos posts sobre golf</description>
+        <language>es</language>
+        <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
 
-            <item>
-         <title>post 1</title>
-         <link>https://grupotupas.githup/golf/blog/post1.html</link>
-         <description>Descripción breve de la noticia</description>
-         <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
-         </item>
+        <item>
+            <title>Post 1</title>
+            <link>https://grupotupas.github.io/golf/blog/post1.html</link>
+            <description>Descripción breve de la noticia</description>
+            <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
+        </item>
 
-         <item>
-             <title>post 2</title>
-             <link>https://grupotupas.githup/golf/blog/post2.html</link>
-             <description>Descripción breve de la noticia</description>
-             <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
-         </item>
+        <item>
+            <title>Post 2</title>
+            <link>https://grupotupas.github.io/golf/blog/post2.html</link>
+            <description>Descripción breve de la noticia</description>
+            <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
+        </item>
 
-         <item>
-             <title>post 3</title>
-             <link>https://grupotupas.githup/golf/blog/post3.html</link>
-             <description>Descripción breve de la noticia</description>
-             <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
-         </item>
+        <item>
+            <title>Post 3</title>
+            <link>https://grupotupas.github.io/golf/blog/post3.html</link>
+            <description>Descripción breve de la noticia</description>
+            <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
+        </item>
 
-         <item>
-             <title>post 4</title>
-             <link>https://grupotupas.githup/golf/blog/post4.html</link>
-             <description>Descripción breve de la noticia</description>
-             <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
-         </item>
-
-  </channel>
+        <item>
+            <title>Post 4</title>
+            <link>https://grupotupas.github.io/golf/blog/post4.html</link>
+            <description>Descripción breve de la noticia</description>
+            <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
+        </item>
+    </channel>
 </rss>
