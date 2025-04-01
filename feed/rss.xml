@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Blog de Golf</title>
         <link>https://grupotupas.github.io/golf/</link>
+        <atom:link href="https://grupotupas.github.io/golf/feed/rss.xml" rel="self" type="application/rss+xml" />
         <description>Últimos posts sobre golf</description>
         <language>es</language>
         <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
@@ -11,28 +12,28 @@
             <title>Post 1</title>
             <link>https://grupotupas.github.io/golf/blog/post1.html</link>
             <description>Descripción breve de la noticia</description>
-            <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
+            <pubDate>Fri, 29 Mar 2024 12:00:00 GMT</pubDate>
         </item>
 
         <item>
             <title>Post 2</title>
             <link>https://grupotupas.github.io/golf/blog/post2.html</link>
             <description>Descripción breve de la noticia</description>
-            <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
+            <pubDate>Fri, 28 Mar 2024 10:00:00 GMT</pubDate>
         </item>
 
         <item>
             <title>Post 3</title>
             <link>https://grupotupas.github.io/golf/blog/post3.html</link>
             <description>Descripción breve de la noticia</description>
-            <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
+            <pubDate>Thu, 27 Mar 2024 09:30:00 GMT</pubDate>
         </item>
 
         <item>
             <title>Post 4</title>
             <link>https://grupotupas.github.io/golf/blog/post4.html</link>
             <description>Descripción breve de la noticia</description>
-            <pubDate>Fri, 20 Mar 2025 12:00:00 GMT</pubDate>
+            <pubDate>Wed, 26 Mar 2024 08:45:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
