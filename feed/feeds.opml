@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?> <opml version="1.0">
  <head>
- <title>Suscripciones RSS - Golden State Warriors</title> 
+ <title>Suscripciones RSS - golf</title> 
  </head> 
  <body> <outline text="Galeria de posts" title="Galeria de posts"> 
  <outline text="Galeria de posts" type="rss" xmlUrl="http://127.0.0.1:3000/blog/blog.html" 
  htmlUrl="https://grupotupas.github.io/golf/blog/blog/"/> 
-<outline text="Podcast - Warriors" type="rss" xmlUrl="http://127.0.0.1:3000/podcast/index.html"
+<outline text="Podcast - golf" type="rss" xmlUrl="http://127.0.0.1:3000/podcast/index.html"
  htmlUrl="https://grupotupas.github.io/golf/podcast/podcast/"/> </outline> </body> </opml>
